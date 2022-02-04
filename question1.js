@@ -15,4 +15,18 @@ function FirstReverse(str) {
   return newstring;
 }
 
-console.log(FirstReverse(string));
+// console.log(FirstReverse(string));
+
+const emptyarr = [];
+const sum = (num) => {
+  const add = (num += 1);
+
+  return emptyarr.push(add);
+};
+
+sum(2);
+sum(3);
+sum((num) => {
+  num++;
+});
+console.log(emptyarr);
