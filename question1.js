@@ -16,17 +16,3 @@ function FirstReverse(str) {
 }
 
 // console.log(FirstReverse(string));
-
-const emptyarr = [];
-const sum = (num) => {
-  const add = (num += 1);
-
-  return emptyarr.push(add);
-};
-
-sum(2);
-sum(3);
-sum((num) => {
-  num++;
-});
-console.log(emptyarr);
